@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\banban\banban\gestor_banban\build\windows\x64\CMakeFiles\2cec404e5eefcd289f2d50d0d65022e0\INSTALL_force.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{C1506262-C70B-303A-99E3-C697CC7B9C5C}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,28 @@
+^C:\BANBAN\BANBAN\GESTOR_BANBAN\BUILD\WINDOWS\X64\CMAKEFILES\6AEEE6956ED4F808E4440C311D82B462\FLUTTER_WINDOWS.DLL.RULE
+setlocal
+"C:\Program Files (x86)\Microsoft Visual Studio\2022\BuildTools\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E env FLUTTER_ROOT=C:\src\flutter PROJECT_DIR=C:\banban\banban\gestor_banban FLUTTER_ROOT=C:\src\flutter FLUTTER_EPHEMERAL_DIR=C:\banban\banban\gestor_banban\windows\flutter\ephemeral PROJECT_DIR=C:\banban\banban\gestor_banban FLUTTER_TARGET=C:\banban\banban\gestor_banban\lib\main.dart DART_OBFUSCATION=false TRACK_WIDGET_CREATION=true TREE_SHAKE_ICONS=false PACKAGE_CONFIG=C:\banban\banban\gestor_banban\.dart_tool\package_config.json C:/src/flutter/packages/flutter_tools/bin/tool_backend.bat windows-x64 Debug
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\BANBAN\BANBAN\GESTOR_BANBAN\BUILD\WINDOWS\X64\CMAKEFILES\1F044D476C8B34920F63A57F79BC74A5\FLUTTER_ASSEMBLE.RULE
+setlocal
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\BANBAN\BANBAN\GESTOR_BANBAN\WINDOWS\FLUTTER\CMAKELISTS.TXT
+setlocal
+"C:\Program Files (x86)\Microsoft Visual Studio\2022\BuildTools\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SC:/banban/banban/gestor_banban/windows -BC:/banban/banban/gestor_banban/build/windows/x64 --check-stamp-file C:/banban/banban/gestor_banban/build/windows/x64/flutter/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

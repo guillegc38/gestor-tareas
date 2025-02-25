@@ -1,0 +1,26 @@
+<lint-module
+    format="1"
+    dir="C:\Users\2DAM\AppData\Local\Pub\Cache\hosted\pub.dev\uni_links-0.5.1\android"
+    name=":uni_links"
+    type="LIBRARY"
+    maven="name.avioli.unilinks:uni_links:0.4.0"
+    agpVersion="8.7.0"
+    buildFolder="C:\banban\banban\gestor_banban\build\uni_links"
+    bootClassPath="C:\Users\2DAM\AppData\Local\Android\platforms\android-33\android.jar;C:\Users\2DAM\AppData\Local\Android\build-tools\34.0.0\core-lambda-stubs.jar"
+    javaSourceLevel="1.8"
+    compileTarget="android-33"
+    neverShrinking="true">
+  <lintOptions
+      disable="InvalidPackage"
+      abortOnError="true"
+      absolutePaths="true"
+      checkReleaseBuilds="true"
+      explainIssues="true">
+    <severities>
+      <severity
+        id="InvalidPackage"
+        severity="IGNORE" />
+    </severities>
+  </lintOptions>
+  <variant name="release"/>
+</lint-module>

@@ -1,0 +1,18 @@
+<lint-module
+    format="1"
+    dir="C:\banban\banban\gestor_banban\android\app"
+    name=":app"
+    type="APP"
+    maven="android:app:unspecified"
+    agpVersion="8.7.0"
+    buildFolder="C:\banban\banban\gestor_banban\build\app"
+    bootClassPath="C:\Users\2DAM\AppData\Local\Android\platforms\android-35\android.jar;C:\Users\2DAM\AppData\Local\Android\build-tools\34.0.0\core-lambda-stubs.jar"
+    javaSourceLevel="11"
+    compileTarget="android-35">
+  <lintOptions
+      abortOnError="true"
+      absolutePaths="true"
+      checkReleaseBuilds="true"
+      explainIssues="true"/>
+  <variant name="release"/>
+</lint-module>
